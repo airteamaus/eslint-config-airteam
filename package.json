@@ -1,6 +1,6 @@
 {
   "name": "@airteam/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "AirTeam ESLint config",
   "keywords": ["eslint", "config", "prettier", "airteam"],
   "main": "index.js",
@@ -18,11 +18,9 @@
   "peerDependencies": {
     "babel-eslint": ">= 8.2",
     "eslint": ">= 4.19",
-    "eslint-config-prettier": ">= 2.9",
     "eslint-plugin-import": ">= 2.9",
-    "eslint-plugin-jsx-a11y": ">= 6.0",
+    "eslint-config-prettier": ">= 2.9",
     "eslint-plugin-prettier": ">= 2.6",
-    "eslint-plugin-react": ">= 7.7",
     "prettier": "1.11.1"
   },
   "devDependencies": {
