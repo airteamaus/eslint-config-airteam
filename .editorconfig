@@ -1,0 +1,22 @@
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent = 2
+indent_size = 2
+line_length = 120
+
+[*.py]
+indent = 4
+indent_size = 4
+known_future_library = future,pies
+known_standard_library = std,std2
+known_third_party = django
+multi_line_output = 5
+length_sort = True
+balanced_wrapping = True
+forced_separate = django.contrib,django.utils
+default_section = FIRSTPARTY
+

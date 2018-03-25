@@ -1,0 +1,42 @@
+{
+  "name": "@airteam/eslint-config",
+  "version": "0.0.1",
+  "description": "AirTeam ESLint config",
+  "keywords": ["eslint", "config", "prettier", "airteam"],
+  "main": "index.js",
+  "repository": "git@github.com:airteamaus/eslint-config-airteam.git",
+  "author": "James Wyse <james@airteam.com.au>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "yarn eslint .",
+    "lint:fix": "yarn lint --fix"
+  },
+  "dependencies": {
+    "@airteam/prettier-config": "^0.0.1",
+    "is-installed": "^2.0.1"
+  },
+  "peerDependencies": {
+    "babel-eslint": ">= 8.2",
+    "eslint": ">= 4.19",
+    "eslint-config-prettier": ">= 2.9",
+    "eslint-plugin-import": ">= 2.9",
+    "eslint-plugin-jsx-a11y": ">= 6.0",
+    "eslint-plugin-prettier": ">= 2.6",
+    "eslint-plugin-react": ">= 7.7",
+    "prettier": "1.11.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "8.2.2",
+    "eslint": "4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0",
+    "prettier": "^1.11.1"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}
