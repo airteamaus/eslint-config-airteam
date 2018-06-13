@@ -4,19 +4,18 @@ const prettierOptions = require('@airteam/prettier-config');
 const OVERRIDES = {
   react: {
     extends: [
-      'eslint:recommended',
-      'plugin:react/recommended',
+      'react-app',
       'plugin:jsx-a11y/recommended',
       'prettier',
       'prettier/react',
     ],
     plugins: ['import', 'jsx-a11y', 'react', 'prettier'],
-    rules: {
-      'react/display-name': 'off',
-      'react/no-deprecated': 'off',
-      'react/jsx-uses-react': 'error',
-      'react/jsx-uses-vars': 'error',
-    },
+    // rules: {
+    //   'react/display-name': 'off',
+    //   'react/no-deprecated': 'off',
+    //   'react/jsx-uses-react': 'error',
+    //   'react/jsx-uses-vars': 'error',
+    // },
   },
 };
 
