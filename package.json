@@ -1,6 +1,6 @@
 {
   "name": "@airteam/eslint-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "AirTeam ESLint config",
   "keywords": [
     "eslint",
@@ -17,29 +17,29 @@
     "lint:fix": "yarn lint --fix"
   },
   "dependencies": {
-    "@airteam/prettier-config": "^0.0.1",
-    "is-installed": "^2.0.1"
+    "@airteam/prettier-config": "*",
+    "is-installed": "*"
   },
   "peerDependencies": {
-    "babel-eslint": ">= 8.2",
-    "eslint": ">= 4.19",
-    "eslint-config-prettier": ">= 2.9",
-    "eslint-plugin-import": ">= 2.12",
-    "eslint-plugin-prettier": ">= 2.6",
+    "babel-eslint": ">*",
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-prettier": "*",
     "prettier": "*"
   },
   "devDependencies": {
-    "babel-eslint": "8.2.3",
-    "eslint": "4.19.1",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-import": "^2.12.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-prettier": "^2.6.0",
-    "eslint-plugin-react": "^7.7.0",
-    "prettier": "^1.13.5"
+    "babel-eslint": "*",
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-prettier": "*",
+    "eslint-plugin-react": "*",
+    "prettier": "*"
   },
   "optionalDependencies": {
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.9.1"
+    "eslint-config-react-app": "*",
+    "eslint-plugin-jsx-a11y": "*",
+    "eslint-plugin-react": "^*"
   }
 }
