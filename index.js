@@ -51,6 +51,7 @@ module.exports = applyOverrides({
       jsx: false,
       impliedStrict: true,
       experimentalObjectRestSpread: true,
+      legacyDecorators: true,
     },
   },
   env: {

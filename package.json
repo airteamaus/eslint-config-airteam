@@ -1,6 +1,6 @@
 {
   "name": "@airteam/eslint-config",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "AirTeam ESLint config",
   "keywords": [
     "eslint",
