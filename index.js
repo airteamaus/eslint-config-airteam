@@ -17,7 +17,7 @@ const OVERRIDES = {
     },
     rules: {
       'react-hooks/rules-of-hooks': 'error',
-      'react-hooks/exhaustive-deps': 'warning',
+      'react-hooks/exhaustive-deps': 'warn',
     },
     // rules: {
     //   'react/display-name': 'off',
@@ -67,6 +67,7 @@ module.exports = applyOverrides({
     node: true,
     es6: true,
   },
+  settings: {},
   rules: {
     strict: 'off',
     curly: 'error',
