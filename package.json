@@ -1,6 +1,6 @@
 {
   "name": "@airteam/eslint-config",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "AirTeam ESLint config",
   "keywords": [
     "eslint",
@@ -29,17 +29,19 @@
     "prettier": "*"
   },
   "devDependencies": {
-    "babel-eslint": "*",
-    "eslint": "*",
-    "eslint-config-prettier": "*",
-    "eslint-plugin-import": "*",
-    "eslint-plugin-prettier": "*",
+    "babel-eslint": "10.0.1",
+    "eslint": "5.14.1",
+    "eslint-config-prettier": "4.0.0",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-prettier": "3.0.1",
     "eslint-plugin-react": "*",
-    "prettier": "*"
+    "eslint-plugin-react-hooks": "*",
+    "prettier": "1.16.4"
   },
   "optionalDependencies": {
-    "eslint-config-react-app": "*",
-    "eslint-plugin-jsx-a11y": "*",
-    "eslint-plugin-react": "^*"
+    "eslint-config-react-app": "3.0.7",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "*"
   }
 }
