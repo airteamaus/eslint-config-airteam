@@ -9,7 +9,16 @@ const OVERRIDES = {
       'prettier',
       'prettier/react',
     ],
-    plugins: ['import', 'jsx-a11y', 'react', 'prettier'],
+    plugins: ['import', 'jsx-a11y', 'react', 'react-hooks', 'prettier'],
+    settings: {
+      react: {
+        version: 'detect',
+      },
+    },
+    rules: {
+      'react-hooks/rules-of-hooks': 'error',
+      'react-hooks/exhaustive-deps': 'warning',
+    },
     // rules: {
     //   'react/display-name': 'off',
     //   'react/no-deprecated': 'off',
