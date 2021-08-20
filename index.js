@@ -19,12 +19,6 @@ const OVERRIDES = {
       'react-hooks/rules-of-hooks': 'error',
       'react-hooks/exhaustive-deps': 'warn',
     },
-    // rules: {
-    //   'react/display-name': 'off',
-    //   'react/no-deprecated': 'off',
-    //   'react/jsx-uses-react': 'error',
-    //   'react/jsx-uses-vars': 'error',
-    // },
   },
 };
 
@@ -74,7 +68,6 @@ module.exports = applyOverrides({
     eqeqeq: ['warn', 'smart'],
     'consistent-return': 'warn',
     'no-console': 'off',
-    'no-undef': 'off',
     'no-unused-vars': [
       'warn',
       {
