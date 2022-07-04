@@ -5,6 +5,7 @@ const OVERRIDES = {
   react: {
     extends: [
       'react-app',
+      'plugin:jsx-a11y/recommended',
       'prettier'
     ],
     plugins: ['import', 'jsx-a11y', 'react', 'react-hooks', 'prettier'],
