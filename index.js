@@ -7,7 +7,7 @@ const OVERRIDES = {
       'react-app',
       'prettier'
     ],
-    plugins: ['import', 'jsx-a11y', 'react', 'react-hooks', 'prettier'],
+    plugins: ['import', 'react', 'react-hooks', 'prettier'],
     settings: {
       react: {
         version: 'detect',
