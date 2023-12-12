@@ -7,7 +7,7 @@ const OVERRIDES = {
       'react-app',
       'prettier'
     ],
-    plugins: ['import', 'react', 'react-hooks', 'prettier'],
+    plugins: ['react', 'react-hooks', 'prettier'],
     settings: {
       react: {
         version: 'detect',
@@ -42,9 +42,9 @@ function applyOverrides(baseConfig) {
 }
 
 module.exports = applyOverrides({
-  parser: 'babel-eslint',
+  parser: '@typescript-eslint/parser',
   extends: ['eslint:recommended', 'prettier'],
-  plugins: ['import', 'prettier'],
+  plugins: ['prettier'],
   parserOptions: {
     ecmaVersion: 8,
     sourceType: 'module',
