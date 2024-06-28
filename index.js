@@ -74,7 +74,6 @@ module.exports = applyOverrides({
       },
     ],
     'prefer-arrow-callback': 'warn',
-    'prefer-const': 'warn',
-    'prettier/prettier': ['error', prettierOptions],
+    'prefer-const': 'warn'
   },
 });
