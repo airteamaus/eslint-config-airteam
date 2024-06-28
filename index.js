@@ -8,15 +8,11 @@ const OVERRIDES = {
       'plugin:jsx-a11y/recommended',
       'prettier'
     ],
-    plugins: ['jsx-a11y', 'react', 'react-hooks', 'prettier'],
+    plugins: ['jsx-a11y', 'react', 'prettier'],
     settings: {
       react: {
         version: 'detect',
       },
-    },
-    rules: {
-      'react-hooks/rules-of-hooks': 'error',
-      'react-hooks/exhaustive-deps': 'warn',
     },
   },
 };
