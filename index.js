@@ -8,7 +8,7 @@ const OVERRIDES = {
       'plugin:jsx-a11y/recommended',
       'prettier'
     ],
-    plugins: ['import', 'jsx-a11y', 'react', 'react-hooks', 'prettier'],
+    plugins: ['jsx-a11y', 'react', 'react-hooks', 'prettier'],
     settings: {
       react: {
         version: 'detect',
