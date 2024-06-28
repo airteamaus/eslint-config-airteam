@@ -40,7 +40,6 @@ function applyOverrides(baseConfig) {
 module.exports = applyOverrides({
   parser: 'babel-eslint',
   extends: ['eslint:recommended', 'prettier'],
-  plugins: ['import', 'prettier'],
   parserOptions: {
     ecmaVersion: 8,
     sourceType: 'module',
